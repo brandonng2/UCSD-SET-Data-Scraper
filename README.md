@@ -10,7 +10,7 @@ Other requirements for running the web scraper include Python, Google Chrome bro
 - beautifulsoup4
 - pandas
 
-Disclaimer: This project is intended for individuals working on data science or personal app projects who require well-formatted data. By providing a single dataset containing all necessary course evaluation data, this script allows project creators to focus on data cleaning and analysis instead of the data scraping process.
+Disclaimer: This project is intended for individuals working on data science or personal app projects who require well-formatted data regarding UCSD course evaluation data. By providing a single dataset containing all necessary course evaluation data, this script allows project creators to focus on data cleaning and analysis instead of the data scraping process.
 
 # Installation & Usage
   
