@@ -1,5 +1,5 @@
 # UCSD-SET-Data-Scraper
-After the discontinuation of [UCSD CAPEs](https://cape.ucsd.edu/) in Spring 2023, course evaluations have transitioned to [UCSD SET](https://set.ucsd.edu/). This project aims to scrape data from the new UCSD SET webpage, compiling course evaluations and reports from Fall 2023 and onwards and exporting them as a CSV file.
+After the discontinuation of [UCSD CAPEs](https://cape.ucsd.edu/) in Spring 2023, course evaluations have transitioned to [UCSD SET](https://set.ucsd.edu/). This project aims to scrape the data from the UCSD SET webpage, compiling course evaluations and reports from Fall 2023 and onwards and exporting them as a CSV file.
 
 The scraper uses Selenium WebDriver to automate the login process and data retrieval from the UCSD SET website. It requires a valid TritonLink account and DUO Mobile authentication, as UCSD SET is a campus service exclusive to UCSD students.
 
@@ -28,7 +28,7 @@ pip install selenium webdriver_manager beautifulsoup4 pandas
 ```
 python3 scraper.py
 ```
-**Step 4:** Enter your TritonLink username and password and
+**Step 4:** Enter your TritonLink username and password, and complete the DUO Mobile authentication.
 
 # Output
 The script generates a CSV file named sets_data.csv containing the scraped SET data with the following columns:
